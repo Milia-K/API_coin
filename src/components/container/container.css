@@ -1,0 +1,11 @@
+.container {
+    background-color: #f1eded;
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+}
+
+.table_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

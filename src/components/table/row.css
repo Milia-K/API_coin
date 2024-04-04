@@ -1,0 +1,21 @@
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-background {
+    background-color: rgb(151, 151, 229);
+}
+
+.green-background {
+    background-color: rgb(147, 228, 139);
+}
